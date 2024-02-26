@@ -9,23 +9,27 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-app.get("/", (req, res) => {
-  res.send(`Welcome to the Content API`);
-});
+const PORT = config.backendPort() || 3000;
 
-app.use("/manga", mangaRouter);
+app.get("/", (req, res) => {
+  res.json(`Welcome to the Content API`);
+});
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(config.dbUrl(), {});
+    const conn = await mongoose.connect(config.dbUrl());
     console.log(`MongoDB Connected: ${conn.connection.host}`);
   } catch (error) {
     console.log(error);
     process.exit(1);
   }
 };
+
+//Connect to the database before listening
 connectDB().then(() => {
-  app.listen(config.backendPort, () => {
-    console.log("listening for requests");
+  app.listen(PORT, () => {
+    console.log(`Server running in http://localhost:${PORT}`);
   });
 });
+
+app.use("/manga", mangaRouter);

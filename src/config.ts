@@ -5,7 +5,7 @@ import * as config from "./config.js";
 dotenv.config();
 
 export const backendPort = (): number => {
-  return 4800;
+  return 4822;
 };
 
 export const dbUrl = (): string => {

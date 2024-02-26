@@ -3,7 +3,7 @@ import { Manga } from "../schemas/mangaSchema.js";
 import express from "express";
 
 export const getAllManga = async (
-  req: express.Request,
+  _req: express.Request,
   res: express.Response
 ) => {
   try {
