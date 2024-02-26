@@ -5,3 +5,6 @@
 
 ### get all games
 {{url}}/games
+
+### get all albums
+{{url}}/music
