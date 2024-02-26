@@ -2,3 +2,6 @@
 
 ### get all manga
 {{url}}/manga
+
+### get all games
+{{url}}/games

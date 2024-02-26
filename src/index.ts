@@ -4,6 +4,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import * as tools from "./tools.js";
 import { mangaRouter } from "./routers/mangaRouter.js";
+import { gameRouter } from "./routers/gameRouter.js";
 
 const app = express();
 app.use(express.json());
@@ -33,3 +34,4 @@ connectDB().then(() => {
 });
 
 app.use("/manga", mangaRouter);
+app.use("/games", gameRouter);
