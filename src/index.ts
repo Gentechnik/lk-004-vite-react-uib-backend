@@ -15,14 +15,17 @@ app.get("/", (req, res) => {
 
 app.use("/manga", mangaRouter);
 
-(async () => {
+const connectDB = async () => {
   try {
-    await mongoose.connect(config.dbUrl(), {});
-    console.log("Connected to the database");
-    app.listen(config.backendPort(), () => {
-      console.log(`Server is running on port ${config.backendPort()}`);
-    });
-  } catch (e) {
-    console.log(e.message);
+    const conn = await mongoose.connect(config.dbUrl(), {});
+    console.log(`MongoDB Connected: ${conn.connection.host}`);
+  } catch (error) {
+    console.log(error);
+    process.exit(1);
   }
-})();
+};
+connectDB().then(() => {
+  app.listen(config.backendPort, () => {
+    console.log("listening for requests");
+  });
+});
