@@ -2,10 +2,10 @@ import express from "express";
 import * as config from "./config.js";
 import cors from "cors";
 import mongoose from "mongoose";
-import * as tools from "./tools.js";
 import { mangaRouter } from "./routers/mangaRouter.js";
 import { gameRouter } from "./routers/gameRouter.js";
 import { albumRouter } from "./routers/albumRouter.js";
+// import * as tools from "./tools.js";
 // import fs from "fs";
 // import path from "path";
 
