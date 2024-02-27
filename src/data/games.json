@@ -1,0 +1,56 @@
+[
+  {
+    "gameTitle": "Bioshock",
+    "description": "In 1960, a lone survivor of a plane crash named Jack discovers an abandoned underwater utopia, only to find out that the mystery behind its creation is much more sinister than he first  believed.",
+    "img": {
+      "src": "images/games/bioshock.jpg",
+      "alt": "Cover of the Game 'Bioshock'",
+      "title": "Cover of the Game 'Bioshock'"
+    }
+  },
+  {
+    "gameTitle": "Inscryption",
+    "description": "Inscryption is an inky black card-based odyssey that blends the deckbuilding roguelike, escape-room style puzzles, and psychological horror into a blood-laced smoothie. Darker still are the secrets inscrybed upon the cards...",
+    "img": {
+      "src": "images/games/inscryption.jpg",
+      "alt": "Cover of the Game 'Inscryption'",
+      "title": "Cover of the Game 'Inscryption'"
+    }
+  },
+  {
+    "gameTitle": "Monsterhunter Rise",
+    "description": "As with previous Monster Hunter titles, Monster Hunter Rise has the player take the role of a Hunter, tasked with slaying or capturing large monsters using a variety of weapons, tools, and environmental features to damage and weaken them while surviving their attacks.",
+    "img": {
+      "src": "images/games/monster-hunter-rise.png",
+      "alt": "Cover of the game 'Monsterhunter Rise'",
+      "title": "Cover of the game 'Monsterhunter Rise'"
+    }
+  },
+  {
+    "gameTitle": "NieR Replicant ver.1.22474487139...",
+    "description": "Set in the year 3465, the game follows Nier as he tries to save his sister Yonah from a fatal disease known as the Black Scrawl. Fighting alongside him are the magical book Grimoire Weiss, the possessed foul mouth Kainé and the cursed immortal child Emil who petrifies people.",
+    "img": {
+      "src": "images/games/nier-replicant.jpg",
+      "alt": "Cover from the game 'NieR Replicant ver.1.22474487139...'",
+      "title": "Cover from the game 'NieR Replicant ver.1.22474487139...'"
+    }
+  },
+  {
+    "gameTitle": "Discroom",
+    "description": "Disc Room is a 2020 action puzzle video game in which the player navigates a series of labyrinthine rooms while avoiding bullet hell-style projectiles. Each room has its own patterns but is not predictable between rooms.",
+    "img": {
+      "src": "images/games/discroom.png",
+      "alt": "Cover of the Game 'Discroom'",
+      "title": "Cover of the Game 'Discroom'"
+    }
+  },
+  {
+    "gameTitle": "Battle Bit Remastered",
+    "description": "BattleBit Remastered is a low-poly, massive multiplayer FPS, supporting 254 players per server. Battle on a near-fully destructible map with various vehicles!",
+    "img": {
+      "src": "images/games/battlebit-remastered.png",
+      "alt": "Cover from the Game 'Battle Bit Remastered'",
+      "title": "Cover from the Game 'Battle Bit Remastered'"
+    }
+  }
+]

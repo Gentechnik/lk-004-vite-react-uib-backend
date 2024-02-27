@@ -1,0 +1,56 @@
+[
+  {
+    "mangaTitle": "A Silent Voice",
+    "description": "A deaf elementary school girl, Shoko Nishimiya, upon transferring, meets a boy named Shoya Ishida in her new class. Shoya, who is not deaf, leads the class in bullying Shoko, because she is deaf. As the bullying continues, the class starts to bully Shoya for bullying Shoko.",
+    "img": {
+      "src": "images/manga/a-silent-voice.jpg",
+      "alt": "Cover of the Manga 'A Silent Voice' from Yoshitoki Ōima",
+      "title": "Cover of the Manga 'A Silent Voice' from Yoshitoki Ōima"
+    }
+  },
+  {
+    "mangaTitle": "Blame!",
+    "description": "In the distant future, civilization has fully integrated with cybertechnology, resulting in automated cities. A virus causes these automated systems to malfunction, sending humanity to the brink of extinction as their own defenses turn on them.",
+    "img": {
+      "src": "images/manga/blame-manga.jpg",
+      "alt": "Cover of the Manga 'BLAME!' from  by Tsutomu Nihei",
+      "title": "Cover of the Manga 'BLAME!' from  by Tsutomu Nihei"
+    }
+  },
+  {
+    "mangaTitle": "One-Punch Man",
+    "description": "Saitama, the protagonist, is an exceptionally powerful hero who easily defeats the monsters or other villains with a single punch. However, due to his overwhelming strength, Saitama has become bored with his powers and is constantly trying to find stronger opponents who can fight him.",
+    "img": {
+      "src": "images/manga/one-punch-man.png",
+      "alt": "first Manga Panel of the Webmanga 'One-Punch Man' from ONE",
+      "title": "first Manga Panel of the Webmanga 'One-Punch Man' from ONE"
+    }
+  },
+  {
+    "mangaTitle": "Soul Eater",
+    "description": "Soul Eater is about a group of students who attend a school for aspiring demon hunters, Shibusen. The story follows Maka, an scythe weilder and her partner, Soul, who transforms into the scythe she uses. Each hunter is paired with a partner who can turn into a weapon, and the two must fight in unison.",
+    "img": {
+      "src": "images/manga/soul-eater.jpg",
+      "alt": "Cover of the Manga 'Soul Eater' from Atsushi Ohkubo",
+      "title": "Cover of the Manga 'Soul Eater' from Atsushi Ohkubo"
+    }
+  },
+  {
+    "mangaTitle": "Sun-Ken Rock",
+    "description": "The story revolves around Ken (the main protagonist), a man from an upper-class family that was orphaned young due to his family's involvement with the Yakuza; he became a highschool delinquent known for fighting. The only thing that motivates him to take action is through his romantic affections for a classmate, Yumi.",
+    "img": {
+      "src": "images/manga/sun-ken-rock.jpg",
+      "alt": "Cover of the 'Manga Sun-Ken Rock' from Boichi",
+      "title": "Cover of the 'Manga Sun-Ken Rock' from Boichi"
+    }
+  },
+  {
+    "mangaTitle": "Tokyo Ghoul",
+    "description": "Tokyo Ghoul is the story of Ken Kaneki, a bibliophile college student who finds himself lucky enough to score a date with a hot girl. Unfortunately, that girl turns out to be a flesh-eating monster, and the date ends with her harvesting him for his meat.",
+    "img": {
+      "src": "images/manga/tokyo-ghoul.jpg",
+      "alt": "Cover of the Manga 'Tokyo Ghoul' from Sui Ishida",
+      "title": "Cover of the Manga 'Tokyo Ghoul' from Sui Ishida"
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "bandName": "the Pillows",
+    "albumName": "Runners High",
+    "description": "Runners High is an album released by the Pillows on January 22, 1999. It was the last album to feature guest bassist, Tatsuya Kashima. Several songs from the record were later featured in the anime OVA series FLCL by Gainax.",
+    "img": {
+      "src": "images/music/runners-high-pillows.jpg",
+      "alt": "Cover of the Album 'Runners High' from the Pillows",
+      "title": "Cover of the Album 'Runners High' from the Pillows"
+    }
+  },
+  {
+    "bandName": "Gorillaz",
+    "albumName": "Demon Days",
+    "description": "Demon Days is the second studio album by British virtual band Gorillaz. It was first released on 11 May 2005 in Japan and on 23 May 2005 in the United Kingdom by Parlophone and in the United States by Virgin Records.",
+    "img": {
+      "src": "images/music/gorillaz-demon-days.png",
+      "alt": "Cover of the Album 'Demon Days' from the Gorillaz",
+      "title": "Cover of the Album 'Demon Days' from the Gorillaz"
+    }
+  },
+  {
+    "bandName": "Joji",
+    "albumName": "Nectar",
+    "description": "Nectar is the second studio album by Japanese singer-songwriter Joji, released on 25 September 2020 via 88rising.",
+    "img": {
+      "src": "images/music/joji-nectar.png",
+      "alt": "Cover of the Album 'Nectar' from Joji",
+      "title": "Cover of the Album 'Nectar' from Joji"
+    }
+  },
+  {
+    "bandName": "NieR Gestalt & Replicant",
+    "albumName": "Videogame OST",
+    "description": "NieR Gestalt & Replicant Original Soundtrack Soundtrack album by Keigo Hoashi, Keiichi Okabe, and SQUARE ENIX MUSIC.",
+    "img": {
+      "src": "images/music/nier-replicant-ost.jpg",
+      "alt": "Cover of the Original Soundtrack of the Game 'Nier Replicant'",
+      "title": "Cover of the Original Soundtrack of the Game 'Nier Replicant'"
+    }
+  },
+  {
+    "bandName": "Oliver Tree",
+    "albumName": "Ugly Is Beautiful",
+    "description": "Ugly Is Beautiful is the debut major-label studio album by American singer-songwriter Oliver Tree.",
+    "img": {
+      "src": "images/music/oliver-tree-life-goes-on.jpg",
+      "alt": "Cover of the Album 'Ugly is Beautiful' from Oliver Tree",
+      "title": "Cover of the Album 'Ugly is Beautiful' from Oliver Tree"
+    }
+  },
+  {
+    "bandName": "Made in Abyss",
+    "albumName": "Anime OST",
+    "description": "A young girl finds and befriends a humanoid robot and descends with him into the titular Abyss in search of her mother.",
+    "img": {
+      "src": "images/music/made-in-abyss.png",
+      "alt": "Cover of the Original Soundtrack of the Series 'Made in Abyss'",
+      "title": "Cover of the Original Soundtrack of the Series 'Made in Abyss'"
+    }
+  }
+]
