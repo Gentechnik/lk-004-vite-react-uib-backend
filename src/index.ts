@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
   res.json(`Welcome to the Content API`);
 });
 
-if (config.devMode() === false) {
+if (config.dbUrl() !== "" && config.devMode() === false) {
   const connectDB = async () => {
     try {
       const conn = await mongoose.connect(config.dbUrl());
