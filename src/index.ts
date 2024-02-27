@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
   res.json(`Welcome to the Content API`);
 });
 
-if (config.dbUrl() === typeof "string") {
+if (config.devMode() === false) {
   const connectDB = async () => {
     try {
       const conn = await mongoose.connect(config.dbUrl());
@@ -40,7 +40,7 @@ if (config.dbUrl() === typeof "string") {
   app.use("/manga", mangaRouter);
   app.use("/games", gameRouter);
   app.use("/music", albumRouter);
-} else {
+} else if (config.devMode() === true) {
   const dataDirectory = path.join("src/", "data");
   app.use(express.static(dataDirectory));
 

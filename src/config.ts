@@ -20,3 +20,7 @@ export const dbUrl = (): string => {
 export const backendUrl = (): string => {
   return `http://localhost:${config.backendPort()}`;
 };
+
+export const devMode = (): boolean => {
+  if (process.env.NODE_ENV === "development") return true;
+};
